@@ -12,3 +12,7 @@
 ## Como rodar o projeto
 - No terminal digite:
 ```npm run start```
+
+## Como buildar o projeto
+- No terminal digite:
+```npm run build```

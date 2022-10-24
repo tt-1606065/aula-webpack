@@ -1,2 +1,3 @@
+import "./style.scss";
 
-console.log("ola mundo js")
+console.log("ola mundo webpack")
