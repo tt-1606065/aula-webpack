@@ -6,8 +6,14 @@
 // O que preciso retornar? - Out
     // A junção dos dois nomes
 
-function juntarDoisNomes(primeiroNome, sobrenome) { // Entradas
-    return `${primeiroNome} ${sobrenome}`
+function juntarDoisNomes(nome, sobrenome) { // Entradas
+    if (nome == "") { // SE ENTAO -> true ou false
+        alert("Não é possivel com nome vazio!")
+        return "Nome Inválido"
+    }
+
+    return nome + " " + sobrenome
+    // return `${nome} ${sobrenome}` 
 }
 
 function nomeEhValido(nome) { // Entradas
